@@ -1,0 +1,37 @@
+body {
+    background-color: #00001f;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo {
+    background-color: #ff7f00;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.campos {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    padding: 5px 0px;
+}
+
+.columna {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
+
+label {
+    text-align: center;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(2, auto)
+}
